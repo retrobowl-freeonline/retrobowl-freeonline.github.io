@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Important pages
+Sitemap: https://retrobowl-freeonline.github.io/sitemap.xml
+
+# Block useless folders if any
+Disallow: /cdn-cgi/
+Disallow: /search
+
+# AI crawlers (ALLOW — GEO/AI traffic ke liye)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
